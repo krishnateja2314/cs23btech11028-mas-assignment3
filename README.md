@@ -34,8 +34,8 @@ p4_lasso/           Problem 4 (LASSO by ADMM)
   lasso_overlay.png
 
 report/             LaTeX source and the final PDF
-  cs23btech11028Assignment3.tex
-  cs23btech11028Assignment3.pdf
+  cs23btech11028_Assignment3.tex
+  cs23btech11028_Assignment3.pdf
 ```
 
 ## How to run
