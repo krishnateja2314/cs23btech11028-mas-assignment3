@@ -71,12 +71,10 @@ Each script drops its figures next to itself. Problem 1 also writes
 ## Notes
 
 - All the Erdos-Renyi graphs are resampled until connected before I use them.
-- For P2 I use Metropolis-Hastings weights for the mixing matrix W, this
-  is declared as extra material in the report since the lecture does not
-  give an explicit formula, only asks that W be doubly stochastic and
-  compatible with the graph.
+- For P2 I use Metropolis-Hastings weights for the mixing matrix W since
+  the lecture only asks that W be doubly stochastic and compatible with
+  the graph.
 - For P3 I use the standard LP relaxation and round the ADMM output using
   the Hungarian algorithm on an expanded cost matrix (each agent duplicated
   b_i times). This gives a valid binary allocation that satisfies both the
-  task cover constraint and the capacity constraint. The relaxation and
-  the rounding are declared in the report.
+  task cover constraint and the capacity constraint.
